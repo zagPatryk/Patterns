@@ -10,20 +10,8 @@ public class Bigmac {
     private final List<Ingredient> ingredients;
 
     public static class BigmacBuilder {
-//        private Roll roll;
-//        private int burgersNumber;
         private Sauce sauce;
         private List<Ingredient> ingredients = new ArrayList<>();
-
-//        public BigmacBuilder setRoll(Roll roll) {
-//            this.roll = roll;
-//            return this;
-//        }
-//
-//        public BigmacBuilder setBurgersNumber(int burgersNumber) {
-//            this.burgersNumber = burgersNumber;
-//            return this;
-//        }
 
         public BigmacBuilder setSauce(Sauce sauce) {
             this.sauce = sauce;
