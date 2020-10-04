@@ -26,6 +26,8 @@ dependencies {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-aop'
+    runtime group: 'org.aspectj', name: 'aspectjweaver', version: '1.9.6'
 }
 
 test {
